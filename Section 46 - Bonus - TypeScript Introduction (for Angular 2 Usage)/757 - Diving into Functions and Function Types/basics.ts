@@ -53,3 +53,13 @@ let course2: string | number =
   "Modern HTML & CSS From The Beginning 2.0 Course";
 
 course2 = 1; // No Error
+
+// Function and types
+
+function add(a: number, b: number) {
+  return a + b;
+}
+
+function printOutput(value: any) { // Return type: void
+  console.log(value);
+}

@@ -53,3 +53,28 @@ let course2: string | number =
   "Modern HTML & CSS From The Beginning 2.0 Course";
 
 course2 = 1; // No Error
+
+// Function and types
+
+function add(a: number, b: number) {
+  return a + b;
+}
+
+function printOutput(value: any) {
+  // Return type: void
+  console.log(value);
+}
+
+// Generics
+
+function insertAtBeginning<T>(array: T[], value: T) {
+  const newArray = [value, ...array];
+  return newArray;
+}
+
+const demoArray = [1, 2, 3];
+
+const updatedArray = insertAtBeginning(demoArray, -1); // -1, 1, 2, 3
+const stringArray = insertAtBeginning(["a", "b", "c"], "d");
+
+// updatedArray[0].split("");

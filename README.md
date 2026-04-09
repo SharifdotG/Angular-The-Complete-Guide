@@ -7,8 +7,8 @@ This repository contains the projects from the "Angular - The Complete Guide" co
 ## Course Progress
 
 - [x] [Section 1: Getting Started](/Section%201%20-%20Getting%20Started/)
-- [ ] [*Section 46: Bonus: TypeScript Introduction (for Angular 2 Usage) (Currently in Progress)*](/Bonus%20-%20TypeScript%20Introduction%20(for%20Angular%202%20Usage)/)
-- [ ] Section 2: Angular Essentials - Components, Templates, Services & More
+- [x] [Section 46: Bonus: TypeScript Introduction (for Angular 2 Usage)](/Bonus%20-%20TypeScript%20Introduction%20(for%20Angular%202%20Usage)/)
+- [ ] [*Section 2: Angular Essentials - Components, Templates, Services & More (Currently in Progress)*](/Section%202%20-%20Angular%20Essentials%20-%20Components,%20Templates,%20Services%20and%20More/01-starting-project/)
 - [ ] Section 3: Angular Essentials - Working with Modules
 - [ ] Section 4: Angular Essentials - Time to Practice
 - [ ] Section 5: Debugging Angular Apps
