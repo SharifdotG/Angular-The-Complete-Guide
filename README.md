@@ -8,7 +8,8 @@ This repository contains the projects from the "Angular - The Complete Guide" co
 
 - [x] [Section 1: Getting Started](/Section%201%20-%20Getting%20Started/)
 - [x] [Section 46: Bonus: TypeScript Introduction (for Angular 2 Usage)](/Bonus%20-%20TypeScript%20Introduction%20(for%20Angular%202%20Usage)/)
-- [ ] [*Section 2: Angular Essentials - Components, Templates, Services & More (Currently in Progress)*](/Section%202%20-%20Angular%20Essentials%20-%20Components,%20Templates,%20Services%20and%20More/01-starting-project/)
+- [x] [*Section 2: Angular Essentials - Components, Templates, Services & More (Currently in Progress)*](/Section%202%20-%20Angular%20Essentials%20-%20Components,%20Templates,%20Services%20and%20More/01-starting-project/)
+  - **Project - EasyTask:** [**Live Demo**](https://sharifdotg-easy-task.vercel.app/)
 - [ ] Section 3: Angular Essentials - Working with Modules
 - [ ] Section 4: Angular Essentials - Time to Practice
 - [ ] Section 5: Debugging Angular Apps
