@@ -23,8 +23,8 @@ This repository contains the projects from the "Angular - The Complete Guide" co
   - **Project - Learning Resources:** [**Live Demo**](https://sharifdotg-learning-resources.vercel.app/)
 - [x] [Section 8: Transforming Values with Pipes - Deep Dive](/Section%208%20-%20Transforming%20Values%20with%20Pipes%20-%20Deep%20Dive/)
   - **Project - Temperatures:** [**Live Demo**](https://sharifdotg-temperatures.vercel.app/)
-- [ ] Section 9: Understanding Services & Dependency Injection - Deep Dive
-- [ ] Section 10: Making Sense of Change Detection - Deep Dive
+- [x] Section 9: Understanding Services & Dependency Injection - Deep Dive
+- [x] Section 10: Making Sense of Change Detection - Deep Dive
 - [ ] Section 11: Working with RxJS (Observables) - Deep Dive
 - [ ] Section 12: Sending HTTP Requests & Handling Responses
 - [ ] Section 13: Handing User Input & Working with Forms (Template-Driven & Reactive)
