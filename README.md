@@ -8,9 +8,10 @@ This repository contains the projects from the "Angular - The Complete Guide" co
 
 - [x] [Section 1: Getting Started](/Section%201%20-%20Getting%20Started/)
 - [x] [Section 46: Bonus: TypeScript Introduction (for Angular 2 Usage)](/Bonus%20-%20TypeScript%20Introduction%20(for%20Angular%202%20Usage)/)
-- [x] [*Section 2: Angular Essentials - Components, Templates, Services & More*](/Section%202%20-%20Angular%20Essentials%20-%20Components,%20Templates,%20Services%20and%20More/01-starting-project/)
+- [x] [Section 2: Angular Essentials - Components, Templates, Services & More](/Section%202%20-%20Angular%20Essentials%20-%20Components,%20Templates,%20Services%20and%20More/01-starting-project/)
   - **Project - EasyTask:** [**Live Demo**](https://sharifdotg-easy-task.vercel.app/)
-- [x] Section 3: Angular Essentials - Working with Modules
+- [x] [Section 3: Angular Essentials - Working with Modules](/Section%203%20-%20Angular%20Essentials%20-%20Working%20with%20Modules/01-starting-project/)
+  - **Project - EasyTask Modules:** [**Live Demo**](https://sharifdotg-easy-task-modules.vercel.app/)
 - [x] [Section 4: Angular Essentials - Time to Practice](/Section%204%20-%20Angular%20Essentials%20-%20Time%20to%20Practice/)
   - **Project - Investment Calculator:** [**Live Demo**](https://sharifdotg-investment-calculator.vercel.app/)
 - [x] [Section 5: Debugging Angular Apps](/Section%205%20-%20Debugging%20Angular%20Apps/)
