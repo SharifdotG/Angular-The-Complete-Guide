@@ -9,12 +9,19 @@ This repository contains the projects from the "Angular - The Complete Guide" co
 - [x] [Section 1: Getting Started](/Section%201%20-%20Getting%20Started/)
 - [x] [Section 46: Bonus: TypeScript Introduction (for Angular 2 Usage)](/Bonus%20-%20TypeScript%20Introduction%20(for%20Angular%202%20Usage)/)
 - [x] [*Section 2: Angular Essentials - Components, Templates, Services & More*](/Section%202%20-%20Angular%20Essentials%20-%20Components,%20Templates,%20Services%20and%20More/01-starting-project/)
+  - **Project - EasyTask:** [**Live Demo**](https://sharifdotg-easy-task.vercel.app/)
 - [x] Section 3: Angular Essentials - Working with Modules
 - [x] [Section 4: Angular Essentials - Time to Practice](/Section%204%20-%20Angular%20Essentials%20-%20Time%20to%20Practice/)
+  - **Project - Investment Calculator:** [**Live Demo**](https://sharifdotg-investment-calculator.vercel.app/)
 - [x] [Section 5: Debugging Angular Apps](/Section%205%20-%20Debugging%20Angular%20Apps/)
 - [x] [Section 6: Components & Templates - Deep Dive](/Section%206%20-%20Components%20and%20Templates%20-%20Deep%20Dive/)
+  - **Project - Dummy Components:** [**Live Demo**](https://sharifdotg-dummy-components.vercel.app/)
+  - **Project - Component Lifecycle:** [**Live Demo**](https://sharifdotg-component-lifecycle.vercel.app/)
+  - **Project - Two Way Binding:** [**Live Demo**](https://sharifdotg-two-way-binding.vercel.app/)
 - [x] [Section 7: Enhancing Elements with Directives - Deep Dive](/Section%207%20-%20Enhancing%20Elements%20with%20Directives%20-%20Deep%20Dive/)
+  - **Project - Learning Resources:** [**Live Demo**](https://sharifdotg-learning-resources.vercel.app/)
 - [x] [Section 8: Transforming Values with Pipes - Deep Dive](/Section%208%20-%20Transforming%20Values%20with%20Pipes%20-%20Deep%20Dive/)
+  - **Project - Temperatures:** [**Live Demo**](https://sharifdotg-temperatures.vercel.app/)
 - [ ] Section 9: Understanding Services & Dependency Injection - Deep Dive
 - [ ] Section 10: Making Sense of Change Detection - Deep Dive
 - [ ] Section 11: Working with RxJS (Observables) - Deep Dive
