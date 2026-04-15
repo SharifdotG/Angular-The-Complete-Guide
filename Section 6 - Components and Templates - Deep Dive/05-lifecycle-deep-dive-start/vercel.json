@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "npm run build -- --base-href /",
-  "outputDirectory": "dist/cmp-deep-dive",
+  "buildCommand": "npm run build/",
+  "outputDirectory": "dist/cmp-deep-dive/browser",
   "rewrites": [
     {
       "source": "/(.*)",
