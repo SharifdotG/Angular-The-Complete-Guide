@@ -1,23 +1,23 @@
 import {
   Component,
   DestroyRef,
-  OnDestroy,
-  OnInit,
   effect,
   inject,
+  OnDestroy,
+  OnInit,
   signal,
-} from "@angular/core";
-import { interval } from "rxjs";
+} from '@angular/core';
 
 @Component({
-  selector: "app-server-status",
+  selector: 'app-server-status',
   standalone: true,
   imports: [],
-  templateUrl: "./server-status.component.html",
-  styleUrl: "./server-status.component.css",
+  templateUrl: './server-status.component.html',
+  styleUrl: './server-status.component.css',
 })
 export class ServerStatusComponent implements OnInit {
-  currentStatus = signal<"online" | "offline" | "unknown">("offline");
+  currentStatus = signal<'online' | 'offline' | 'unknown'>('offline');
+  // private interval?: ReturnType<typeof setInterval>;
   private destroyRef = inject(DestroyRef);
 
   constructor() {
@@ -27,16 +27,16 @@ export class ServerStatusComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log("ON INIT");
+    console.log('ON INIT!');
     const interval = setInterval(() => {
-      const rnd = Math.random();
+      const rand = Math.random();
 
-      if (rnd < 0.5) {
-        this.currentStatus.set("online");
-      } else if (rnd < 0.9) {
-        this.currentStatus.set("offline");
+      if (rand < 0.5) {
+        this.currentStatus.set('online');
+      } else if (rand < 0.9) {
+        this.currentStatus.set('offline');
       } else {
-        this.currentStatus.set("unknown");
+        this.currentStatus.set('unknown');
       }
     }, 5000);
 
@@ -46,10 +46,10 @@ export class ServerStatusComponent implements OnInit {
   }
 
   ngAfterViewInit() {
-    console.log("AFTER VIEW INIT");
+    console.log('AFTER VIEW INIT!');
   }
 
-  // ngOnDestroy() {
+  // ngOnDestroy(): void {
   //   clearTimeout(this.interval);
   // }
 }

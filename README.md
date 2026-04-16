@@ -25,14 +25,14 @@ This repository contains the projects from the "Angular - The Complete Guide" co
   - **Project - Temperatures:** [**Live Demo**](https://sharifdotg-temperatures.vercel.app/)
 - [x] Section 9: Understanding Services & Dependency Injection - Deep Dive
 - [x] Section 10: Making Sense of Change Detection - Deep Dive
-- [ ] Section 11: Working with RxJS (Observables) - Deep Dive
-- [ ] Section 12: Sending HTTP Requests & Handling Responses
-- [ ] Section 13: Handing User Input & Working with Forms (Template-Driven & Reactive)
-- [ ] Section 14: Routing & Building Multi-page Single Page Applications
+- [x] Section 11: Working with RxJS (Observables) - Deep Dive
+- [x] Section 12: Sending HTTP Requests & Handling Responses
+- [x] Section 13: Handing User Input & Working with Forms (Template-Driven & Reactive)
+- [x] Section 14: Routing & Building Multi-page Single Page Applications
 - [ ] Section 15: Code Splitting & Defferrable Views
 - [ ] Section 16: Deploying Angular Apps - CSR, SSR, SGA
 - [ ] Section 17: Course Roundup & Next Steps
-- [x] **Section 18 -> Section 38 will be skipped as they are for Angular < 16**
+- [x] **I will skip Section 18 -> Section 38 as they are for Angular < 16**
 - [ ] Section 39: Standalone Components
 - [ ] Section 40: Angular Signals
 - [ ] Section 41: Bonus: Using NgRx for State Management
