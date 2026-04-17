@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { RectComponent } from './rect/rect.component';
 import { FormsModule } from '@angular/forms';
+
+import { RectComponent } from './rect/rect.component';
 
 @Component({
   selector: 'app-root',

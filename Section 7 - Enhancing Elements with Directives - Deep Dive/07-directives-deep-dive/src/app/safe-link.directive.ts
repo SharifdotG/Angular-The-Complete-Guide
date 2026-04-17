@@ -1,4 +1,5 @@
 import { Directive, ElementRef, inject, input } from '@angular/core';
+
 import { LogDirective } from './log.directive';
 
 @Directive({
@@ -22,12 +23,11 @@ export class SafeLinkDirective {
 
     if (wantsToLeave) {
       const address = this.hostElementRef.nativeElement.href;
-
       this.hostElementRef.nativeElement.href =
         address + '?from=' + this.queryParam();
       return;
     }
 
-    event.preventDefault();
+    event?.preventDefault();
   }
 }

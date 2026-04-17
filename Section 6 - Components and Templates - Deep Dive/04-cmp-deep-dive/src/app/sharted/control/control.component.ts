@@ -38,10 +38,10 @@ export class ControlComponent implements AfterContentInit {
 
   constructor() {
     afterRender(() => {
-      console.log("afterRender")
+      console.log('afterRender');
     });
     afterNextRender(() => {
-      console.log("afterNextRender")
+      console.log('afterNextRender');
     });
   }
 

@@ -14,7 +14,7 @@ import { DashboardItemComponent } from './dashboard/dashboard-item/dashboard-ite
     ServerStatusComponent,
     TrafficComponent,
     TicketsComponent,
-    DashboardItemComponent
+    DashboardItemComponent,
   ],
   templateUrl: './app.component.html',
 })

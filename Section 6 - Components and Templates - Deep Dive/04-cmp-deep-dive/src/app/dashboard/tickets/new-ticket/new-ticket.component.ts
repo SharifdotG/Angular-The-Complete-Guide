@@ -8,9 +8,10 @@ import {
   ViewChild,
   viewChild,
 } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+
 import { ButtonComponent } from '../../../sharted/button/button.component';
 import { ControlComponent } from '../../../sharted/control/control.component';
-import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-new-ticket',
@@ -23,6 +24,8 @@ export class NewTicketComponent implements AfterViewInit {
   @ViewChild('form') form?: ElementRef<HTMLFormElement>;
   // private form = viewChild.required<ElementRef<HTMLFormElement>>('form');
   // @Output() add = new EventEmitter<{ title: string; text: string }>();
+  enteredTitle = '';
+  enteredText = '';
   add = output<{ title: string; text: string }>();
 
   ngOnInit() {
@@ -36,8 +39,9 @@ export class NewTicketComponent implements AfterViewInit {
   }
 
   onSubmit(title: string, ticketText: string) {
-    this.add.emit({ title: title, text: ticketText });
-
-    this.form?.nativeElement.reset();
+    this.add.emit({ title: this.enteredTitle, text: this.enteredText });
+    // this.form?.nativeElement.reset();
+    this.enteredTitle = '';
+    this.enteredText = '';
   }
 }

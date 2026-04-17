@@ -8,7 +8,7 @@ export class TemperaturePipe implements PipeTransform {
   transform(
     value: string | number | null,
     inputType: 'cel' | 'fah',
-    outputType?: 'cel' | 'fah'
+    outputType?: 'cel' | 'fah',
   ) {
     if (!value) {
       return value;
@@ -22,9 +22,8 @@ export class TemperaturePipe implements PipeTransform {
       val = value;
     }
 
-    let outputTemp = val;
-
-    if (inputType === 'cel' && outputType === 'fah') {
+    let outputTemp: number;
+    if (inputType === 'cel' && outputType == 'fah') {
       outputTemp = val * (9 / 5) + 32;
     } else if (inputType === 'fah' && outputType === 'cel') {
       outputTemp = (val - 32) * (5 / 9);
@@ -32,12 +31,11 @@ export class TemperaturePipe implements PipeTransform {
       outputTemp = val;
     }
 
-    let symbol: 'ºC' | 'ºF';
-
+    let symbol: '°C' | '°F';
     if (!outputType) {
-      symbol = inputType === 'cel' ? 'ºC' : 'ºF';
+      symbol = inputType == 'cel' ? '°C' : '°F';
     } else {
-      symbol = outputType === 'cel' ? 'ºC' : 'ºF';
+      symbol = outputType == 'cel' ? '°C' : '°F';
     }
 
     return `${outputTemp.toFixed(2)} ${symbol}`;
