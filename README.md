@@ -37,8 +37,8 @@ This repository contains the projects from the "Angular - The Complete Guide" co
 - [x] **I will skip Section 37 -> Section 38 as they are for Angular < 16**
 - [x] Section 39: Standalone Components
 - [x] Section 40: Angular Signals
-- [ ] Section 41: Bonus: Using NgRx for State Management
-- [ ] Section 42: Angular Animations
+- [x] Section 41: Bonus: Using NgRx for State Management
+- [x] Section 42: Angular Animations
 - [ ] Section 43: Adding Offline Capabilities with Service Workers
 - [ ] Section 44: A Basic Introduction to Unit Testing in Angular Apps
 - [ ] Section 45: Angular as a Platform & Closer Look at the CLI
