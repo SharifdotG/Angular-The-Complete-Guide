@@ -59,7 +59,7 @@ app.put("/user-places", async (req, res) => {
 
   await fs.writeFile(
     "./data/user-places.json",
-    JSON.stringify(updatedUserPlaces)
+    JSON.stringify(updatedUserPlaces),
   );
 
   res.status(200).json({ userPlaces: updatedUserPlaces });
@@ -67,8 +67,6 @@ app.put("/user-places", async (req, res) => {
 
 app.delete("/user-places/:id", async (req, res) => {
   const placeId = req.params.id;
-
-  // return res.status(500).json();
 
   const userPlacesFileContent = await fs.readFile("./data/user-places.json");
   const userPlacesData = JSON.parse(userPlacesFileContent);
@@ -83,7 +81,7 @@ app.delete("/user-places/:id", async (req, res) => {
 
   await fs.writeFile(
     "./data/user-places.json",
-    JSON.stringify(updatedUserPlaces)
+    JSON.stringify(updatedUserPlaces),
   );
 
   res.status(200).json({ userPlaces: updatedUserPlaces });
