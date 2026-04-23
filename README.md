@@ -37,7 +37,8 @@ This repository contains the projects from the "Angular - The Complete Guide" co
 - [x] [Section 14: Routing & Building Multi-page Single Page Applications](/Section%2014%20-%20Routing%20and%20Building%20Multi-page%20Single%20Page%20Applications/)
   - **Project - Routing:** [**Live Demo**](https://sharifdotg-angular-routing.vercel.app/)
 - [x] [Section 15: Code Splitting & Defferrable Views](/Section%2015%20-%20Code%20Splitting%20and%20Deferrable%20Views/)
-  - **Project - Code Splitting:** [**Live Demo**](https://sharifdotg-code-splitting.vercel.app/)
+  - **Project - Lazy Loading:** [**Live Demo**](https://sharifdotg-lazy-loading.vercel.app/)
+  - **Project - Defferrable Views:** [**Live Demo**](https://sharifdotg-defferrable-views.vercel.app/)
 - [x] [Section 16: Deploying Angular Apps - CSR, SSR, SGA](/Section%2016%20-%20Deploying%20Angular%20Apps%20-%20CSR,%20SSR,%20SGA/)
 - [x] Section 17: Course Roundup & Next Steps
 - [x] **I will skip Section 18 -> Section 35 as they are for Angular < 16**
