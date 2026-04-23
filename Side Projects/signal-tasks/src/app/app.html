@@ -1,0 +1,19 @@
+<main class="todo-app">
+  <h1>Signal Tasks</h1>
+
+  <app-task-add (add)="addTask($event)" />
+
+  <div class="task-list">
+    @for (task of filteredTask(); track task.id) {
+      <app-task-item [task]="task" (toggle)="toggleTask($event)" (delete)="deleteTask($event)" />
+    } @empty {
+      <p class="empty">No tasks to show!</p>
+    }
+  </div>
+
+  <app-task-filter
+    [currentFilter]="currentFilter()"
+    [activeCount]="activeCount()"
+    (filterChange)="changeFilter($event)"
+  />
+</main>

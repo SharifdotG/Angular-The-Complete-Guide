@@ -1,0 +1,18 @@
+.todo-app {
+  max-width: 400px;
+  margin: 40px auto;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.task-list {
+  margin: 20px 0;
+}
+
+.empty {
+  text-align: center;
+  color: #aaa;
+}

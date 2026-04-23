@@ -1,0 +1,18 @@
+<div class="filters">
+  <span>{{ activeCount() }} items left</span>
+
+  <div class="buttons">
+    <button (click)="filterChange.emit('all')" [class.active]="currentFilter() == 'all'">
+      All
+    </button>
+    <button (click)="filterChange.emit('active')" [class.active]="currentFilter() == 'active'">
+      Active
+    </button>
+    <button
+      (click)="filterChange.emit('completed')"
+      [class.active]="currentFilter() == 'completed'"
+    >
+      Completed
+    </button>
+  </div>
+</div>

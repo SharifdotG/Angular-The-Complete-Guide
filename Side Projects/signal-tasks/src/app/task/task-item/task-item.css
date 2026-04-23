@@ -1,0 +1,12 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.completed span {
+  text-decoration: line-through;
+  color: #888;
+}

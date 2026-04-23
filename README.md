@@ -41,23 +41,12 @@ This repository contains the projects from the "Angular - The Complete Guide" co
   - **Project - Defferrable Views:** [**Live Demo**](https://sharifdotg-defferrable-views.vercel.app/)
 - [x] [Section 16: Deploying Angular Apps - CSR, SSR, SGA](/Section%2016%20-%20Deploying%20Angular%20Apps%20-%20CSR,%20SSR,%20SGA/)
 - [x] Section 17: Course Roundup & Next Steps
-- [x] **I will skip Section 18 -> Section 35 as they are for Angular < 16**
-- [x] [Section 36: Authentication & Route Protection in Angular](/Section%2036%20-%20Authentication%20and%20Route%20Protection%20in%20Angular/)
-  - **Project - Authentication:** [**Live Demo**](https://sharifdotg-angular-authentication.vercel.app/)
-- [x] **I will skip Section 37 -> Section 38 as they are for Angular < 16**
-- [x] [Section 39: Standalone Components](/Section%2039%20-%20Standalone%20Components/)
-  - **Project - Standalone Components:** [**Live Demo**](https://sharifdotg-standalone-components.vercel.app/)
-- [x] [Section 40: Angular Signals](/Section%2040%20-%20Angular%20Signals/)
-  - **Project - Angular Signals:** [**Live Demo**](https://sharifdotg-angular-signals.vercel.app/)
-- [x] [Section 41: Bonus: Using NgRx for State Management](/Section%2041%20-%20Bonus%20-%20Using%20NgRx%20For%20State%20Management/)
-  - **Project - NgRx State Management:** [**Live Demo**](https://sharifdotg-ngrx-state-management.vercel.app/)
-- [x] [Section 42: Angular Animations](/Section%2042%20-%20Angular%20Animations/)
-  - **Project - Angular Animations:** [**Live Demo**](https://sharifdotg-angular-animations.vercel.app/)
-- [x] [Section 43: Adding Offline Capabilities with Service Workers](/Section%2043%20-%20Adding%20Offline%20Capabilities%20with%20Service%20Workers/)
-  - **Project - Service Workers:** [**Live Demo**](https://sharifdotg-service-workers.vercel.app/)
-- [x] [Section 44: A Basic Introduction to Unit Testing in Angular Apps](/Section%2044%20-%20A%20Basic%20Introduction%20to%20Unit%20Testing%20in%20Angular%20Apps/)
-  - **Project - Unit Testing:** [**Live Demo**](https://sharifdotg-unit-testing.vercel.app/)
+- [x] **I will skip Section 18 -> Section 44 as they are for Angular version < 16 and these section topics are already covered in the above updated sections**
 - [x] Section 45: Angular as a Platform & Closer Look at the CLI
+
+## Side Projects
+
+- [Signal Tasks](./Side%20Projects/signal-tasks): [**Live Demo**](https://sharifdotg-signal-tasks.vercel.app/)
 
 ## Course Link
 
