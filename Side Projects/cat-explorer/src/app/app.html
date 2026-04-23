@@ -1,0 +1,27 @@
+<main class="container">
+  <h1>😸 Cat Explorer</h1>
+  <p>Using HTTP, RxJS, and Dependency Injection :3</p>
+
+  <div class="controls">
+    <select (change)="selectBreed($any($event.target).value)">
+      <option value="">All Breeds</option>
+      @for (breed of breeds(); track breed.id) {
+        <option [value]="breed.id">{{ breed.name }}</option>
+      }
+    </select>
+
+    <button (click)="fetchCat()">
+      @if (isLoading()) {
+        Fetching... 🐈
+      } @else {
+        Fetch a Cat! 🐈‍⬛
+      }
+    </button>
+  </div>
+
+  @if (catImage() && !isLoading()) {
+    <app-cat-card [cat]="catImage()!" />
+  } @else if (isLoading()) {
+    <div class="loader">Loading a cute cat... 😻</div>
+  }
+</main>

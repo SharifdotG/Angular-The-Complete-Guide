@@ -1,4 +1,4 @@
-import { Component, effect, inject, signal } from '@angular/core';
+import { Component, effect, inject } from '@angular/core';
 import { TaskAdd } from './task/task-add/task-add';
 import { TaskItem } from './task/task-item/task-item';
 import { TaskFilter } from './task/task-filter/task-filter';

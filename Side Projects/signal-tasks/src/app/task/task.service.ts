@@ -1,4 +1,4 @@
-import { computed, effect, Injectable, signal } from '@angular/core';
+import { computed, Injectable, signal } from '@angular/core';
 import { FilterType, Task } from './task.model';
 
 @Injectable({
@@ -32,7 +32,7 @@ export class TaskService {
 
   toggleTask(id: number) {
     this.tasks.update((tasks) =>
-      tasks.map((t) => (t.id == id ? { ...t, completed: !t.completed } : t)),
+      tasks.map((t) => (t.id === id ? { ...t, completed: !t.completed } : t)),
     );
   }
 

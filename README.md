@@ -47,6 +47,7 @@ This repository contains the projects from the "Angular - The Complete Guide" co
 ## Side Projects
 
 - [Signal Tasks](./Side%20Projects/signal-tasks): [**Live Demo**](https://sharifdotg-signal-tasks.vercel.app/)
+- [Cat Explorer (Using HTTP, RxJS, and Dependency Injection)](/Side%20Projects/cat-explorer/): [**Live Demo**](https://sharifdotg-cat-explorer.vercel.app/)
 
 ## Course Link
 
