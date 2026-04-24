@@ -1,5 +1,4 @@
-import { NgFor } from '@angular/common';
-import { Component, DestroyRef, inject } from '@angular/core';
+import { Component } from '@angular/core';
 import {
   AbstractControl,
   FormArray,
@@ -30,8 +29,6 @@ function equalValues(controlName1: string, controlName2: string) {
   styleUrl: './signup.component.css',
 })
 export class SignupComponent {
-  private destroyRef = inject(DestroyRef);
-
   form = new FormGroup({
     email: new FormControl('', {
       validators: [Validators.email, Validators.required],
